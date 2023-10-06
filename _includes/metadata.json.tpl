@@ -70,7 +70,7 @@
         "version": "{{site.gitbook_version}}",
         "time": "{{site.time}}"
     },
-    "basePath": "{{site.baseurl}}",
+    "basePath": "{{“/“ | relative_url}}",
     "book": {
         "language": ""
     }
