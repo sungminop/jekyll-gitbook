@@ -4,7 +4,7 @@ longtitle:        memo
 author:           Park
 email:            1022sungmin@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+#  Build Jekyll site with the GitBook style.
 
 version:          1.0
 gitbook_version:  3.2.3
