@@ -43,7 +43,7 @@
         {% if starts_with == "http" %}
 <link rel="stylesheet" href="{{ extra_css }}">
         {%- else -%}
-<link rel="stylesheet" href="{{site.baseurl}}/{{ extra_css }}">
+<link rel="stylesheet" href="{{“/“ | relative_url}}/{{ extra_css }}">
         {%- endif -%}
     {%- endfor -%}
 {% endif %}
@@ -54,7 +54,7 @@
         {% if starts_with == "http" %}
 <script src="{{ extra_js }}"></script>
         {%- else -%}
-<script src="{{site.baseurl}}/{{ extra_js }}"></script>
+<script src="{{“/“ | relative_url}}/{{ extra_js }}"></script>
         {%- endif -%}
     {%- endfor -%}
 {% endif %}
