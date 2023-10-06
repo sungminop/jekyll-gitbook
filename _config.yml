@@ -14,7 +14,7 @@ baseurl:          /sungminop
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sungminop/jekyll-gitbook
+remote_theme: sungminop/sungminop.github.io
 
 toc:
   enabled: true
